@@ -99,6 +99,7 @@ This project implements a robust CI/CD pipeline using GitHub Actions to automate
 **Purpose:** Production-ready deployments
 
 ### 🔍 Test Pipeline (test.yml)
+
 [![Test Pipeline](https://github.com/More-ThanCode/GoConcoche/actions/workflows/test.yml/badge.svg)](https://github.com/More-ThanCode/GoConcoche/actions/workflows/test.yml)
 
 **Trigger:** Automatically runs on every Pull Request targeting main
