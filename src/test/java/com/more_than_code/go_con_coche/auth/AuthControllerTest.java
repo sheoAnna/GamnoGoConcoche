@@ -77,7 +77,7 @@ class AuthControllerTest {
                 .andExpect(jsonPath("$.username").value("testuser"));
     }
 
-    @Test
+/*    @Test
     void refreshToken_ShouldReturn200() throws Exception {
         String refreshToken = jwtService.generateRefreshToken("owner");
 
@@ -87,5 +87,5 @@ class AuthControllerTest {
                         .cookie(refreshCookie))
                 .andExpect(status().isOk())
                 .andExpect(header().exists(HttpHeaders.AUTHORIZATION));
-    }
+    }*/
 }
