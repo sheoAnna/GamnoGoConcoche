@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.more_than_code.go_con_coche.auth.dtos.AuthRequest;
 import com.more_than_code.go_con_coche.auth.dtos.RegisterRequest;
 import com.more_than_code.go_con_coche.auth.services.JwtService;
+import com.more_than_code.go_con_coche.email.EmailService;
 import com.more_than_code.go_con_coche.registered_user.RegisteredUser;
 import com.more_than_code.go_con_coche.registered_user.RegisteredUserRepository;
 import com.more_than_code.go_con_coche.role.Role;
@@ -49,6 +50,9 @@ class AuthControllerTest {
 
     @MockitoBean
     private RoleRepository roleRepository;
+
+    @MockitoBean
+    private EmailService emailService;
 
     @BeforeEach
     void setUp() {
