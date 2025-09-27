@@ -49,3 +49,6 @@ spring:
           auth: false
           starttls:
             enable: false
+  jwt:
+    rsa-public-key: ${RSA_PUBLIC_KEY}
+    rsa-private-key: ${RSA_PRIVATE_KEY}
